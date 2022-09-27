@@ -1,7 +1,13 @@
+import Sidebar from '../components/Sidebar';
+
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world, My First Next JS Application. Testing updated git creds.
-    </h1>
+    <main className='flex min-h-screen max-w-7x1 mx-auto'>
+      {/* Sidebar */}
+      <Sidebar />
+      {/* Feed  */}
+      {/* Widgets  */}
+      {/* Modal */}
+    </main>
   );
 }
