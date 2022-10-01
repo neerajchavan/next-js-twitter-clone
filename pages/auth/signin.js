@@ -13,8 +13,8 @@ export default function SignIn({ providers }) {
         className="hidden object-cover rotate-6 md:w-44 md:h-80 md:inline-flex"
       />
       <div className="">
-        {Object.values(providers).map((provider) => (
-          <div className="flex flex-col items-center">
+        {Object.values(providers).map((provider, index) => (
+          <div key={index} className="flex flex-col items-center">
             <img
               className="w-36 object-cover"
               src={TWITTER_LOGO_URL}
